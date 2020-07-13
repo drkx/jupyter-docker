@@ -1,7 +1,7 @@
 version: "3.3"
 services:
   openai-gym:
-    image: "lderkx/openai"
+    image: "lderkx/openai-gym:latest"
     restart: "unless-stopped"
     ports:
       - "8888:8888"
