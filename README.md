@@ -5,7 +5,7 @@ This is just a fork from https://github.com/EdBoraas/jupyter-docker with minor f
 Of course you need to have [Docker](https://docs.docker.com/get-docker/) installed and running
 
 ## Usage
-Download the [docker-compose](https://raw.githubusercontent.com/drkx/jupyter-docker/master/docker-compose.yml) file, than run it and show the logs to get the right url with token:
+Download the [docker-compose](https://raw.githubusercontent.com/drkx/jupyter-docker/master/docker-compose.yml) file, then run it and show the logs to get the right url with token:
 ```bash
 docker-compose up -d && docker-compose logs
 ```
